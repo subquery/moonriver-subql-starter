@@ -1,6 +1,6 @@
 {
   "name": "moonriver-subql-starter",
-  "version": "0.0.5",
+  "version": "0.0.4",
   "description": "This SubQuery project can be use as a starting point for Moonriver network",
   "main": "dist/index.js",
   "scripts": {
@@ -19,8 +19,14 @@
   ],
   "author": "SubQuery Network",
   "license": "MIT",
+  "resolutions": {
+    "@polkadot/api": "8.12.2",
+    "@polkadot/types": "8.12.2",
+    "@polkadot/util": "10.0.2",
+    "ipfs-unixfs": "6.0.6"
+  },
   "devDependencies": {
-    "@polkadot/api": "^8",
+    "@polkadot/api": "8.12.2",
     "@subql/types": "latest",
     "typescript": "^4.6.2",
     "@subql/cli": "latest",
